@@ -1,0 +1,6 @@
+Advantages of using Hashmaps with TestNG Dataprovider in Data Driven Testing:
+     * parameters need not be passed to the test method
+          This is especially useful when the excel data has many columns(say 50 colns),we cannot pass 50 parameters to the test method
+     * values can be retrieved as key,value pairs
+     * Additional data that need not be from the excel can also be manually added in hashmaps whenever needed,
+       whereas in object array,array size cannot be altered
